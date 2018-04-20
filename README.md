@@ -5,9 +5,13 @@ Final_Project for by SI 206 class
 Using the PRAW wrapper, I was able to access Reddits data and use it to extract the data from Reddit. Reddit requires an OAUTH2  authentication. You are able to access Reddit's API by providing some information about your Reddit account including: the client secret, the client Id, your username and your password. 
 
 To access this information, these are the steps the user must follow: 
-1. the user must log into Reddit on https://www.reddit.com/. 
-2. Go to the top right of the Page where your uniquename is displayed and press on it. 
-3. Go to Preferences 
+1. the user must log into Reddit on https://www.reddit.com/prefs/apps 
+2. Click on developer, and make an app
+3. Then change the type to Script App. 
+4. And then you should be provided the ClientId and ClientSecret to continue with authentication. 
+
+For more help to find thing this information, follow this url: 
+https://github.com/reddit-archive/reddit/wiki/OAuth2
 
 # Any additional information needed to run:
 Will need to put in the authentication for the program to work. 
